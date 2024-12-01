@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div className="projects-container w-full flex items-center h-screen justify-end pr-8 animate-containerZoom">
+    <div className="projects-container bg-gradient-to-br from-indigo-900 via-gray-900 w-full flex items-center justify-end pr-8 animate-containerZoom">
       {/* Main Projects Section */}
-      <div className="projects-content w-full md:w-7/10 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-8 rounded-lg shadow-2xl flex flex-col space-y-6 animate-fadeInRight">
+      <div className="projects-content w-full md:w-5/10 bg-gradient-to-br from-indigo-900 via-gray-900 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-8 rounded-lg shadow-2xl flex flex-col space-y-6 animate-fadeInRight">
         
         <h2 className="text-3xl font-bold text-indigo-400 mb-4">My Projects</h2>
         
@@ -19,9 +19,23 @@ export default function Projects() {
               alt="Company ERP System"
               className="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-110 transition duration-700"
             />
-            <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-indigo-300 transition">Project One</h3>
+            <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-indigo-300 transition">ERP SYSTEM</h3>
             <p className="text-gray-300 group-hover:text-gray-100">
-              Built a secure, scalable ERP system to optimize business and employee &apos s operations efficiently
+              Built a secure, scalable ERP system to optimize business and employees operations efficiently
+            </p>
+          </div>
+          <div
+            className="project-box group bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-3xl transition transform hover:scale-105 hover:-translate-y-2 cursor-pointer animate-icon animate-pulseShadow"
+            onClick={() => window.open('https://easyquranclass.com/', '_blank')}
+          >
+            <img
+              src="/IMAGES/eqc.PNG"
+              alt="Company ERP System"
+              className="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-110 transition duration-700"
+            />
+            <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-indigo-300 transition">EASY QURAN CLASS</h3>
+            <p className="text-gray-300 group-hover:text-gray-100">
+              User friendly, highly responsive dynamic website
             </p>
           </div>
 
@@ -35,12 +49,13 @@ export default function Projects() {
               alt="Frontend Project"
               className="w-full h-48 object-cover rounded-md mb-4 group-hover:scale-110 transition duration-700"
             />
-            <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-indigo-300 transition">Project Two</h3>
+            <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-indigo-300 transition">BUSSINESS PORTFOLIO</h3>
             <p className="text-gray-300 group-hover:text-gray-100">
               A responsive, user friendly project
             </p>
           </div>
         </div>
+        
       </div>
 
       {/* Custom Styles */}

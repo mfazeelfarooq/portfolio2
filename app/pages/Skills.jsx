@@ -8,7 +8,7 @@ const skillsList = [
   { name: 'JavaScript', icon: <FaJs className="text-yellow-400" /> },
   { name: 'Python', icon: <FaPython className="text-blue-400" /> },
   { name: 'Django', icon: <SiDjango className="text-green-700" /> },
-  { name: 'PostgreSQL', icon: <SiPostgresql className="text-blue-700" /> },
+  { name: 'PostgreSQL', icon: <SiPostgresql className="text-white-700" /> },
   { name: 'SQLite', icon: <SiSqlite className="text-blue-400" /> },
   { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
   { name: 'Express', icon: <SiExpress className="text-gray-300" /> },
@@ -23,8 +23,8 @@ const skillsList = [
 
 export default function Skills() {
   return (
-    <div className="skills-container w-full flex justify-end h-screen pr-8">
-      <div className="skills-content w-full md:w-7/10 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-8 rounded-lg shadow-lg flex flex-wrap gap-8 animate__animated animate__fadeInRight">
+    <div className="skills-container bg-gradient-to-br from-indigo-900 via-gray-900 w-full flex justify-end  pr-8">
+      <div className="skills-content bg-gradient-to-br from-indigo-900 via-gray-900 w-full md:w-7/10 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-8 rounded-lg shadow-lg flex flex-wrap gap-8 animate__animated animate__fadeInRight">
         
         <h2 className="text-3xl font-bold text-indigo-400 mb-4">My Skills</h2>
         

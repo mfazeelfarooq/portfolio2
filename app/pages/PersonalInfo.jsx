@@ -20,11 +20,11 @@ export default function PersonalInfo() {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-indigo-400 animate-slideIn">
             Hi, I&apos;m DAYAN UL-HAQ
           </h1>
-          <p className="text-sm md:text-base lg:text-lg leading-relaxed tracking-wide text-gray-300">
-            I am a self-motivated, ambitious person with a responsible approach to any task I undertake.
+          <p className="text-sm md:text-base font-[Poppins] lg:text-lg leading-relaxed tracking-wide text-gray-300">
+          A highly motivated and detail-oriented Computer Science student aspiring to leverage academic knowledge and hands-on experience towards a career in web development. 
             <br />
-            I&apos;m a Full Stack developer with skills in Web Apps Development, bringing 2 years of mobile development and 4 years in web development experience. Known for my creative, adaptable nature and detail-oriented approach, I’m passionate about working collaboratively towards professional excellence in a dynamic digital brand.
-          </p>
+            Eager to contribute to dynamic teams, apply programming skills, and continually enhance expertise in front-end and back-end technologies. Seeking opportunities to learn and grow in a collaborative environment where innovation and creativity thrive.
+            </p>
 
           {/* Hire Me Button */}
           <a
