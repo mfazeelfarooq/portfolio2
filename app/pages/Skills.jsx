@@ -24,7 +24,7 @@ const skillsList = [
 export default function Skills() {
   return (
     <div className="skills-container bg-gradient-to-br from-indigo-900 via-gray-900 w-full flex justify-end  pr-8">
-      <div className="skills-content bg-gradient-to-br from-indigo-900 via-gray-900 w-full md:w-7/10 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-8 rounded-lg shadow-lg flex flex-wrap gap-8 animate__animated animate__fadeInRight">
+      <div className="skills-content  w-full md:w-7/10 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-8 rounded-lg shadow-lg flex flex-wrap gap-8 animate__animated animate__fadeInRight">
         
         <h2 className="text-3xl font-bold text-indigo-400 mb-4">My Skills</h2>
         

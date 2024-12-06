@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div className="projects-container bg-gradient-to-br from-indigo-900 via-gray-900 w-full flex items-center justify-end pr-8 animate-containerZoom">
       {/* Main Projects Section */}
-      <div className="projects-content w-full md:w-5/10 bg-gradient-to-br from-indigo-900 via-gray-900 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-8 rounded-lg shadow-2xl flex flex-col space-y-6 animate-fadeInRight">
+      <div className="projects-content w-full md:w-5/10   bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-8 rounded-lg shadow-2xl flex flex-col space-y-6 animate-fadeInRight">
         
         <h2 className="text-3xl font-bold text-indigo-400 mb-4">My Projects</h2>
         
