@@ -18,7 +18,7 @@ export default function Experience() {
           My Experience
         </h1>
         <p className="text-xl text-center text-indigo-200 max-w-3xl mb-12 animate-slide-in">
-          Here's a snapshot of my professional journey and the projects I've worked on. Let's dive into the details of the impactful experiences I've gathered.
+          Here&apos;s a snapshot of my professional journey and the projects I&apos;ve worked on. Let&apos;s dive into the details of the impactful experiences I&apos;ve gathered.
         </p>
 
         {/* Experience List */}
@@ -29,7 +29,7 @@ export default function Experience() {
               Collaborated with a dynamic web development team to create and maintain responsive websites for clients, resulting in enhanced user experiences.
             </p>
           </div>
-          
+
           <div className="flex flex-col bg-gradient-to-br from-indigo-900 via-gray-900 gap-4 bg-gray-800 p-6 rounded-lg shadow-xl hover:scale-105 transition-transform duration-500">
             <h3 className="text-2xl font-semibold text-indigo-300">Freelance Web Developer</h3>
             <p className="text-lg text-indigo-200">
